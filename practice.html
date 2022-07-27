@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="./practice.js"></script>
+</head>
+
+<body>
+
+    <p>1. Write a JavaScript program to display the current day and time in the following format.
+        Sample Output : Today is : Tuesday.
+        Current time is : 10 PM : 30 : 38</p>
+
+    <p id="first"></p>
+    <p id="first1"></p>
+    <button onclick="script1()">click here</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+    <p>2. Write a JavaScript program to print the contents of the current window. </p>
+    <button onclick="script2()">click to print</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>3. Write a JavaScript program to get the current date.Expected Output :
+        mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
+    </p>
+
+    <p id="three"></p>
+    <button onclick="script3()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+    <p>4. Write a JavaScript program to find the area of a triangle where lengths of the three of its sides are 5,
+        6,7.</p>
+    <p id="four"></p>
+    <button onclick="script4()">area of a triangle</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>5. Write a JavaScript program to rotate the string 'w3resource' in right direction by periodically removing one
+        letter from the end of the string and attaching it to the front. </p>
+
+    <input type="text" id="oneFifty1">
+    <p id="oneFifty">hello</p>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+    <p>6. Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar</p>
+    Enter Year: <input id="six" type="Number">
+    <p id="six1"></p>
+    <button onclick="script6()">click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>7. Write a JavaScript program to find 1st January is being a Sunday between 2014 and 2050.</p>
+
+    <p id="seven"></p>
+    <button onclick="script7()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+    <p>8. Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted
+        to input a guess number. If the user input matches with guess number,
+        the program will display a message "Good Work" otherwise display a message "Not matched".</p>
+
+    <p id="eight"></p>
+    <p id="eight2"></p>
+    <p id="eight1"></p>
+    <button onclick="script8()">click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>9. Write a JavaScript program to calculate days left until next Christmas</p>
+
+    <p id="nine1"></p>
+    <button onclick="script9()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>10. Write a JavaScript program to calculate multiplication and division of two numbers (input from user).
+        Sample form :</p>
+
+
+    Enter First No : <input type="Number" id="ten1"><br><br>
+    Enter Second No : <input type="Number" id="ten2">
+    <p id="ten"></p>
+
+    <button onclick="multiplication()">multiplication</button>
+    <button onclick="division()">division</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>11. Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
+        [ Formula : c/5 = (f-32)/9 [ where c = temperature in Celsius and f = temperature in Fahrenheit ]
+        Expected Output :
+        60°C is 140 °F
+        45°F is 7.222222222222222°C </p>
+
+    C To F : <input type="number" id="eleven1"><br><br>
+    F TO C : <input type="number" id="eleven2">
+    <p id="eleven"></p>
+    <button onclick="script11CTOF()">C To F</button>
+    <button onclick="script11FTOC()">F TO C</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>12. Write a JavaScript program to get the website URL (loading page).</p>
+    <p id="twelve"></p>
+    <button onclick="script12()">click</button> <br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>14. Write a JavaScript exercise to get the extension of a filename.</p>
+
+    Enter String : <input type="text" id="fourteen1">
+    <p id="fourteen"></p>
+    <button onclick="script14()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>15. Write a JavaScript program to get the difference between a given number and 13, if the number is greater than
+        13 return double the absolute difference.</p>
+
+    <p id="fifteen1"></p>
+    <p id="fifteen"></p>
+    <button onclick="script15()">click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>16. Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then
+        returns triple their sum. </p>
+
+    <p id="sixteen"></p>
+    Enter First No : <input type="Number" id="sixteen1"><br><br>
+    Enter Second No : <input type="Number" id="sixteen2"><br><br>
+    <button onclick="script16()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>17. Write a JavaScript program to compute the absolute difference between a specified number and 19. Returns
+        triple their absolute difference if the specified number is greater than 19.</p>
+
+    Enter Number : <input type="number" id="seventeen">
+    <p id="seventeen1"></p>
+    <button onclick="script17()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>18. Write a JavaScript program to check two given numbers and return true if one of the number is 50 or if their
+        sum is 50. </p>
+
+    <p id="eighteen"></p>
+    Enter First No : <input type="Number" id="eighteen1"><br><br>
+    Enter Second No : <input type="Number" id="eighteen2"><br><br>
+    <button onclick="script18()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>19. Write a JavaScript program to check whether a given integer is within 20 of 100 or 400.</p>
+
+    Enter NO : <input type="number" id="nineteen">
+    <p id="nineteen1"></p>
+    <button onclick="script19()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>20. Write a JavaScript program to check from two given integers, whether one is positive and another one is
+        negative.</p>
+
+    Enter F No : <input type="number" id="twentee1"><br><br>
+    Enter S NO : <input type="number" id="twentee2">
+    <p id="twentee"></p>
+    <button onclick="script20()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>21. Write a JavaScript program to create a new string adding "Py" in front of a given string. If the given string
+        begins with "Py" then return the original string.</p>
+
+    Enter String : <input type="text" id="twentyone1">
+    <p id="twentyone"></p>
+    <button onclick="script21()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>22. Write a JavaScript program to remove a character at the specified position of a given string and return the
+        new string.</p>
+
+    Enter String : <input type="text" id="twentyTwo1"><br><br>
+    Enter position to remove char : <input type="number" id="twentyTwo2">
+    <p id="twentyTwo"></p>
+    <button onclick="script22()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>23. Write a JavaScript program to create a new string from a given string changing the position of first and last
+        characters. The string length must be greater than or equal to 1.</p>
+
+    Enter String : <input type="text" id="twentyThree1">
+    <p id="twentyThree"></p>
+    <button onclick="script23()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>24. Write a JavaScript program to create a new string from a given string with the first character of the given
+        string added at the front and back. </p>
+
+    Enter String : <input type="text" id="twentyFour1">
+    <p id="twentyFour"></p>
+    <button onclick="script24()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>25. Write a JavaScript program to check whether a given positive number is a multiple of 3 or a multiple of 7.
+    </p>
+
+    Enter No : <input type="number" id="twentyFive1">
+    <p id="twentyFive"></p>
+    <button onclick="script25()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>26. Write a JavaScript program to create a new string from a given string taking the last 3 characters and added
+        at both the front and back. The string length must be 3 or more.</p>
+
+    Enter String : <input type="text" id="twentySix1">
+    <p id="twentySix"></p>
+    <button onclick="script26()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>27. Write a JavaScript program to check whether a string starts with 'Java' and false otherwise.</p>
+
+    Enter String : <input type="text" id="twentyseven1">
+    <p id="twentyseven"></p>
+    <button onclick="script27()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>28. Write a JavaScript program to check whether two given integer values are in the range 50..99 (inclusive).
+        Return true if either of them are in the said range</p>
+
+    Enter First No: <input type="number" id="twentyeight1"><br><br>
+    Enter Second No: <input type="number" id="twentyeight2"><br>
+    <p id="twentyeight"></p>
+    <button onclick="script28()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>29. Write a JavaScript program to check whether three given integer values are in the range 50..99 (inclusive).
+        Return true if one or more of them are in the said range.</p>
+
+    Enter First No: <input type="number" id="twentynine1"><br><br>
+    Enter Second No: <input type="number" id="twentynine2"><br><br>
+    Enter Third No: <input type="number" id="twentynine3"><br>
+
+    <p id="twentynine"></p>
+    <button onclick="script29()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>30. Write a JavaScript program to check whether a string "Script" presents at 5th (index 4) position in a given
+        string, if "Script" presents in the string return the string without "Script" otherwise return the original one.
+    </p>
+
+    Enter String : <input type="text" id="thirteen1">
+    <p id="thirteen"></p>
+    <button onclick="script30()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>31. Write a JavaScript program to find the largest of three given integers.</p>
+
+    F No : <input type="number" id="thirtyone1"><br><br>
+    S No : <input type="number" id="thirtyone2"><br><br>
+    T No : <input type="number" id="thirtyone3">
+
+    <p id="thirtyone"></p>
+    <button onclick="script31()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>32. Write a JavaScript program to find a value which is nearest to 100 from two different given integer values.
+    </p>
+
+    F No : <input type="number" id="thirtyTwo1"><br><br>
+    S No : <input type="number" id="thirtyTwo2">
+    <p id="thirtyTwo"></p>
+    <button onclick="script32()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>33. Write a JavaScript program to check whether two numbers are in range 40..60 or in the range 70..100
+        inclusive.</p>
+
+    F No : <input type="number" id="thirtytree1"><br><br>
+    S No : <input type="number" id="thirtytree2">
+    <p id="thirtytree"></p>
+    <button onclick="script33()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>34. Write a JavaScript program to find the larger number from the two given positive integers, the two numbers
+        are in the range 40..60 inclusive. </p>
+
+    Enter F No : <input type="number" id="thirtyFour1"><br><br>
+    Enter S No : <input type="number" id="thirtyFour2">
+    <p id="thirtyFour"></p>
+    <button onclick="script34()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>35. Write a program to check whether a specified character exists within the 2nd to 4th position in a given
+        string.</p>
+
+    Enter String : <input type="text" id="thirtyFive1"><br><br>
+    Enter character : <input type="text" id="thirtyFive2">
+    <p id="thirtyFive"></p>
+    <button onclick="script35()">Click</button><br>
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>36. Write a JavaScript program to check whether the last digit of the three given positive integers is same.</p>
+
+    Enter F No : <input type="number" id="thirtySix1"><br><br>
+    Enter S No : <input type="number" id="thirtySix2"><br><br>
+    Enter T No : <input type="number" id="thirtySix3">
+    <p id="thirtySix"></p>
+    <button onclick="script36()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>37. Write a JavaScript program to create new string with first 3 characters are in lower case from a given
+        string. If the string length is less than 3 convert all the characters in upper case.</p>
+
+    String : <input type="text" id="thirtySeven1">
+    <p id="thirtySeven"></p>
+    <button onclick="script37()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>38. Write a JavaScript program to check the total marks of a student in various examinations. The student will
+        get A+ grade if the total marks are in the range 89..100 inclusive, if the examination is "Final-exam." the
+        student will get A+ grade and total marks must be greater than or equal to 90. Return true if the student get A+
+        grade or false otherwise. </p>
+
+    Enter Examination : <input type="text" id="thirtyEight1"><br><br>
+    Enter Marks : <input type="number" id="thirtyEight2">
+    <p id="thirtyEight"></p>
+    <button onclick="script38()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>39. Write a JavaScript program to compute the sum of the two given integers, If the sum is in the range 50..80
+        return 65 other wise return 80.</p>
+
+    F No : <input type="number" id="thirtynine1"><br><br>
+    S No : <input type="number" id="thirtynine2">
+    <p id="thirtynine"></p>
+    <button onclick="script39()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>40. Write a JavaScript program to check from two given integers whether one of them is 8 or their sum or
+        difference is 8.</p>
+
+    F No : <input type="number" id="Fourteen1"><br><br>
+    S No : <input type="number" id="Fourteen2">
+    <p id="Fourteen"></p>
+    <button onclick="script40()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>41. Write a JavaScript program to check three given numbers, if the three numbers are same return 30 otherwise
+        return 20 and if two numbers are same return 40.</p>
+
+    F No : <input type="number" id="fourtyone1"><br><br>
+    S No : <input type="number" id="fourtyone2"><br><br>
+    T No : <input type="number" id="fourtyone3">
+    <p id="fourtyone"></p>
+    <button onclick="script41()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>42. Write a JavaScript program to check whether three given numbers are increasing in strict mode or in soft
+        mode.Note: Strict mode -> 10, 15, 31 : Soft mode -> 24, 22, 31 or 22, 22, 31 </p>
+
+    Enter F NO : <input type="number" id="fortyTwo1"><br><br>
+    Enter S NO : <input type="number" id="fortyTwo2"><br><br>
+    Enter T NO : <input type="number" id="fortyTwo3">
+    <p id="fortyTwo"></p>
+    <button onclick="script42()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>43. Write a JavaScript program to check from three given numbers (non negative integers) that two or all of them
+        have the same rightmost digit.</p>
+
+    F NO : <input type="number" id="fortyThree1"><br><br>
+    S NO : <input type="number" id="fortyThree2"><br><br>
+    T NO : <input type="number" id="fortyThree3">
+    <p id="fortyThree"></p>
+    <button onclick="script43()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>44. Write a JavaScript program to check from three given integers that whether a number is greater than or equal
+        to 20 and less than one of the others.</p>
+
+    F NO : <input type="number" id="fortyFour1"><br><br>
+    S NO : <input type="number" id="fortyFour2"><br><br>
+    T NO : <input type="number" id="fortyFour3">
+    <p id="fortyFour"></p>
+    <button onclick="script44()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>45. Write a JavaScript program to check two given integer values and return true if one of the number is 15 or if
+        their sum or difference is 15.</p>
+
+    F NO : <input type="number" id="fourtyFive1"><br><br>
+    S NO : <input type="number" id="fourtyFive2">
+    <p id="fourtyFive"></p>
+    <button onclick="script45()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>46. Write a JavaScript program to check two given non-negative integers that whether one of the number (not both)
+        is multiple of 7 or 11.</p>
+
+    F NO : <input type="number" id="fourtysix1"><br><br>
+    S NO : <input type="number" id="fourtysix2">
+    <p id="fourtysix"></p>
+    <button onclick="script46()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>47. Write a JavaScript program to check whether a given number is presents in the range 40..10000.
+        For example 40 presents in 40 and 4000 </p>
+
+    Enter NO : <input type="number" id="fortySeven1">
+    <p id="fortySeven"></p>
+    <button onclick="script47()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>48. Write a JavaScript program to reverse a given string.</p>
+
+    Enter String : <input type="text" id="fourtyEight">
+    <p id="fourtyEight1"></p>
+    <button onclick="script48()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>49. Write a JavaScript program to replace every character in a given string with the character following it in
+        the alphabet</p>
+
+    Enter String : <input type="text" id="fortynine123">
+    <p id="fortynine1"></p>
+    <button onclick="script49()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>50. Write a JavaScript program to capitalize the first letter of each word of a given string.</p>
+
+    Enter String : <input type="text" id="fifty">
+    <p id="fifty1"></p>
+    <button onclick="script50()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>51. Write a JavaScript program to convert a given number to hours and minutes.</p>
+
+    Enter No : <input type="number" id="fiftyOne">
+    <p id="fiftyOne1"></p>
+    <button onclick="script51()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>52. Write a JavaScript program to convert the letters of a given string in alphabetical order.</p>
+
+    Enter String : <input type="text" id="fiftyTwo1">
+    <p id="fiftyTwo"></p>
+    <button onclick="script52()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>53. Write a JavaScript program to check whether the characters a and b are separated by exactly 3 places anywhere
+        (at least once) in a given string.</p>
+
+    Enter String : <input type="text" id="fiftyThree1">
+    <p id="fiftyThree"></p>
+    <button onclick="script53()">Click</button>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>54. Write a JavaScript program to count the number of vowels in a given string.</p>
+
+    Enter String : <input type="text" id="fiftyFour">
+    <p id="fiftyFour1"></p>
+    <button onclick="script54()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>55. Write a JavaScript program to check whether a given string contains equal number of p's and t's.</p>
+
+    Enter String : <input type="text" id="fiftyFive">
+    <p id="fiftyFive1"></p>
+    <button onclick="script55()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>56. Write a JavaScript program to divide two positive numbers and return a string with properly formatted commas
+    </p>
+
+    Enter F NO : <input type="number" id="fiftySix1"><br><br>
+    Enter S NO : <input type="number" id="fiftySix2">
+    <p id="fiftySix"></p>
+    <button onclick="script56()">Click</button>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+    <p>57. Write a JavaScript program to create a new string of specified copies (positive number) of a given string.
+    </p>
+
+    Enter String : <input type="text" id="fiftySeven">
+    How Many Time : <input type="number" id="fiftySeven1">
+    <p id="fiftySeven2"></p>
+    <button onclick="script57()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>58. Write a JavaScript program to create a new string of 4 copies of the last 3 characters of a given original
+        string. The length of the given string must be 3 and above.</p>
+
+    Enter String : <input type="text" id="fiftyEight">
+    <p id="fiftyEight1"></p>
+    <button onclick="script58()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>59. Write a JavaScript program to extract the first half of a string of even length.</p>
+
+    Enter String : <input type="text" id="fiftyNine">
+    <p id="fiftyNine1"></p>
+    <button onclick="script59()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>60. Write a JavaScript program to create a new string without the first and last character of a given string.</p>
+
+    Enter String : <input type="text" id="sixty">
+    <p id="sixty1"></p>
+    <button onclick="script60()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>61. Write a JavaScript program to concatenate two strings except their first character.</p>
+
+    Enter String 1 : <input type="text" id="sixtyOne1"><br><br>
+    Enter String 2 : <input type="text" id="sixtyOne2">
+    <p id="sixtyOne"></p>
+    <button onclick="script61()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>62. Write a JavaScript program to move last three character to the start of a given string. The string length
+        must be greater or equal to three.</p>
+
+    Enter String : <input type="text" id="sixtyTwo1">
+    <p id="sixtyTwo"></p>
+    <button onclick="script62()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>63. Write a JavaScript program to create a string using the middle three characters of a given string of odd
+        length. The string length must be greater or equal to three.</p>
+
+    Enter String : <input type="text" id="sixtyThree1">
+    <p id="sixtyThree"></p>
+    <button onclick="script63()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>64. Write a JavaScript program to concatenate two strings and return the result. If the length of the strings are
+        not same then remove the characters from the longer string.</p>
+
+    Enter 1st String : <input type="text" id="sixtyFour1"><br><br>
+    Enter 2nd String : <input type="text" id="sixtyFour2">
+    <p id="sixtyFour"></p>
+    <button onclick="script64()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>65. Write a JavaScript program to test whether a string end with "Script". The string length must be greater or
+        equal to 6.</p>
+
+    Enter String : <input type="text" id="sixtyFive1">
+    <p id="sixtyFive"></p>
+    <button onclick="script65()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>66. Write a JavaScript program to display the city name if the string begins with "Los" or "New" otherwise return
+        blank.</p>
+
+    Enter String : <input type="text" id="sixtySix1">
+    <p id="sixtySix"></p>
+    <button onclick="script66()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>67. Write a JavaScript program to create a new string from a given string, removing the first and last characters
+        of the string if the first or last character are 'P'. Return the original string if the condition is not
+        satisfied. </p>
+
+    Enter String : <input type="text" id="sixtySeven1">
+    <p id="sixtySeven"></p>
+    <button onclick="script67()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>68. Write a JavaScript program to create a new string using the first and last n characters from a given sting.
+        The string length must be greater or equal to n.</p>
+
+    Enter String : <input type="text" id="sixtyEight1"><br><br>
+    Enter number : <input type="number" id="sixtyEight2">
+    <p id="sixtyEight"></p>
+    <button onclick="script68()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>69. Write a JavaScript program to compute the sum of three elements of a given array of integers of length 3.</p>
+
+    <p id="sixtyNine"></p>
+    <button onclick="script69()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>70. Write a JavaScript program to rotate the elements left of a given array of integers of length 3.</p>
+
+    <p id="seventy"></p>
+    <button onclick="script70()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>71. Write a JavaScript program to check whether 1 appears in first or last position of a given array of integers.
+        The array length must be greater or equal to 1.</p>
+
+    Enter Array : <input type="number" id="seventyOne1">
+    <p id="seventyOne"></p>
+    <button onclick="script71()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>72. Write a JavaScript program to check whether the first and last elements are equal of a given array of
+        integers length 3</p>
+
+    <p id="seventyTwo"></p>
+    <button onclick="script72()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>73. Write a JavaScript program to reverse the elements of a given array of integers length 3.</p>
+
+    <p id="seventyThree"></p>
+    <button onclick="script73()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>74. Write a JavaScript program to find the larger value between the first or last and set all the other elements
+        with that value integers length 3.</p>
+
+    <p id="seventyFour"></p>
+    <button onclick="script74()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>75. Write a JavaScript program to create a new array taking the middle elements of the two arrays of integer and
+        each length 3.</p>
+
+    <p id="seventyFive"></p>
+    <button onclick="script75()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+    <p>76. Write a JavaScript program to create a new array taking the first and last elements from a given array of
+        integers and length must be greater or equal to 1. </p>
+
+    <p id="seventySix"></p>
+    <button onclick="script76()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>77. Write a JavaScript program to test whether an array of integers of length 2 contains 1 or a 3.</p>
+
+    <p id="seventySeven1"></p>
+    <button onclick="script77()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>78. Write a JavaScript program to test whether an array of integers of length 2 does not contain 1 or a 3.</p>
+
+    <p id="seventyeight1"></p>
+    <button onclick="script78()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>79. Write a JavaScript program to test whether a given array of integers contains 30 and 40 twice. The array
+        length should be 0, 1, or 2.</p>
+
+    <p id="seventyNine"></p>
+    <button onclick="script79()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>80. Write a JavaScript program to swap the first and last elements of a given array of integers. The array length
+        should be at least 1.</p>
+
+    Enter Array : <input type="number" id="eightyn1">
+    <p id="eightyn"></p>
+    <button onclick="script80()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>81. Write a JavaScript program to add two digits of a given positive integer of length two</p>
+
+    Enter value : <input type="number" id="eightyone1">
+    <p id="eightyone"></p>
+    <button onclick="script81()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>83. Write a JavaScript to find the longest string from a given array of strings.</p>
+
+    <p id="eighteeThree1"></p>
+    <button onclick="script83()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>84. Write a JavaScript to replace each character of a given string by the next one in the English alphabet.
+        Note: 'a' will be replace by 'b' or 'z' would be replaced by 'a'.
+    </p>
+
+    Enter String : <input type="text" id="eightFourty1">
+    <p id="eightForty"></p>
+    <button onclick="script84()">Click</button>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>85. Write a JavaScript code to divide a given array of positive integers into two parts. First element goes to
+        first part, second element goes to second part, and third element goes to first part and so on. Now compute the
+        sum of two parts and store into an array of size two</p>
+
+    <p id="eightyFive1"></p>
+    <p id="eightyFive2"></p>
+    <button onclick="script85()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>132. Write a JavaScript program to find all distinct prime factors of a given integer.</p>
+
+    Enter Number : <input type="number" id="oneThirtyThree1">
+    <p id="oneThirtyThree"></p>
+    <button onclick="script132()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>133. Write a JavaScript program to check whether a given fraction is proper or not.
+        Note: There are two types of common fractions, proper or improper. When the numerator and the denominator are
+        both positive, the fraction is called proper if the numerator is less than the denominator, and improper
+        otherwise.
+    </p>
+
+    Enter F NO : <input type="number" id="oneThirtyThree1"><br><br>
+    Enter S NO : <input type="number" id="oneThirtyThree2">
+    <p id="oneThirtyThree"></p>
+    <button onclick="script133()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>134. Write a JavaScript program to change the characters (lower case) in a string where a turns into z, b turns
+        into y, c turns into x, ..., n turns into m, m turns into n, ..., z turns into a.</p>
+
+    Enter String : <input type="text" id="oneThirtyFour1">
+    <p id="oneThirtyFour"></p>
+    <button onclick="script134()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>135. Write a JavaScript program to remove all characters from a given string that appear more than once.</p>
+
+    Enter String : <input type="text" id="oneThirtyFive">
+    <p id="oneThirtyFive1"></p>
+    <button onclick="script135()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>136. Write a JavaScript program to replace the first digit in a string (should contains at least digit) with $
+        character.</p>
+
+    Enter String With Digit : <input type="text" id="oneThirtySix1">
+    <p id="oneThirtySix"></p>
+    <button onclick="script136()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>137. Write a JavaScript program to test whether a given integer is greater than 15 return the given number,
+        otherwise return 15.</p>
+
+    Enter Number : <input type="number" id="oneThirtySeven1">
+    <p id="oneThirtySeven"></p>
+    <button onclick="script137()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>139. Write a JavaScript program to find the position of a rightmost round number in an array of integers. Returns
+        0 if there are no round number.</p>
+
+    <p id="oneThirtyNine"></p>
+    <button onclick="script139()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>140. Write a JavaScript program to check whether all the digits in a given number are the same or not.</p>
+
+    Enter Number : <input type="number" id="oneForty1">
+    <p id="oneForty"></p>
+    <button onclick="script140()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>141. Write a JavaScript program to find the number of elements which presents in both of the given arrays.</p>
+
+    Enter No1 : <input type="number" id="oneFortyOne1"><br><br>
+    Enter No2 : <input type="number" id="oneFortyOne2">
+    <p id="oneFortyOne"></p>
+    <button onclick="script141()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>143. Write a JavaScript program to sort the strings of a given array of strings in the order of increasing
+        lengths.Note: Do not change the order if the lengths of two string are same. </p>
+
+    <p id="oneFortyThree"></p>
+    <button onclick="script143()">Click</button><br>
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+    <p>145. Write a JavaScript program to find the maximum integer n such that 1 + 2 + ... + n <= a given integer</p>
+
+            <p id="oneFortyFive"></p>
+            <button onclick="script145()">Click</button><br>
+
+            -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+            <p>146. Write a JavaScript program to compute the sum of cubes of all integer from 1 to a given integer.</p>
+
+            Enter Number : <input type="number" id="oneFortyFive100">
+            <p id="oneFortyFive000"></p>
+            <button onclick="script146()">Click</button><br>
+
+            -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+            <p>147. Write a JavaScript program to compute the sum of all digits that occur in a given string.</p>
+
+            Enter String : <input type="text" id="oneFortySeven1">
+            <p id="oneFortySeven"></p>
+            <button onclick="script147()">Click</button><br>
+
+            -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+            <p>148. Write a JavaScript program to swap two halves of a given array of integers of even length.</p>
+
+            Enter String : <input type="number" id="oneFortyEight1">
+            <p id="oneFortyEight"></p>
+            <button onclick="script148()">Click</button>
+
+            -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+            <p>149. Write a JavaScript program to change the capitalization of all letters in a given string.</p>
+
+            Enter String : <input type="text" id="oneFortyNine1">
+            <p id="oneFortyNine"></p>
+            <button onclick="script149()">Click</button><br>
+
+            -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+            <p>150. Write a JavaScript program to swap pairs of adjacent digits of a given integer of even length.</p>
+
+            Enter No : <input type="number" id="oneFifty123">
+            <p id="oneFifty12345"></p>
+            <button onclick="script150()">Click</button><br>
+
+            -----------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
+
+</body>
+
+</html>
